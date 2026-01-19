@@ -91,7 +91,9 @@ http://localhost:5000
 ├── app.py                   # Application Flask principale
 ├── templates/
 │   └── index.html           # Template HTML pour l’interface utilisateur
+├── patterns.yml             # Fichier YAML contenant les patterns de dorks
 ├── requirements.txt         # Dépendances Python du projet
+├── Dockerfile               # Fichier pour la contenerisation de l'app
 └── README.md                # Documentation du projet (ce fichier)
 ```
 

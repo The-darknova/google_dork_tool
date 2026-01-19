@@ -1,0 +1,33 @@
+Répertoires ouverts:
+  - 'intitle:"index of"'
+  - '"index of" inurl:ftp'
+  - 'intitle:"index of" inurl:backup'
+
+Fichiers exposés:
+  - filetype:pdf
+  - filetype:sql
+  - filetype:env
+  - filetype:log
+  - 'ext:php intitle:phpinfo "published by the PHP Group"'
+
+Injection SQL:
+  - inurl:item_id=
+  - inurl:id= inurl:page=
+  - inurl:product=
+  - inurl:category=
+
+Panels d'administration:
+  - 'intitle:"admin"'
+  - inurl:admin
+  - inurl:login
+  - 'intitle:"login"'
+
+Configurations sensibles:
+  - ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:ini
+  - '"db_password" ext:env'
+  - '"API_KEY" ext:env'
+
+Technologies vulnérables:
+  - '"powered by wordpress"'
+  - '"powered by joomla" inurl:administrator'
+  - '"wp-content" ext:php'

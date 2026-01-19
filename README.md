@@ -5,6 +5,7 @@ Un outil web simple et efficace pour générer automatiquement des **requêtes G
 > ⚠️ **Usage légal uniquement !** Cet outil est conçu pour des tests de sécurité autorisés et à des fins pédagogiques. Ne l’utilisez jamais sans permission explicite.
 
 ---
+
 ## 🖼️ Aperçu de l'outil
 
 Voici une capture d'écran de l'interface :
@@ -50,7 +51,34 @@ python app.py
 
 Puis ouvrez votre navigateur à l’adresse :
 
+```bash
+http://localhost:5000
 ```
+
+## 🛠️ Docker
+
+### 1. Cloner le dépôt
+
+```bash
+git clone https://github.com/hackusman/google_dork_tool.git
+cd google_dork_tool
+```
+
+### 2. Build de l'image Docker
+
+```bash
+docker build -t google-dork-tool .
+```
+
+### 3. Lancer le conteneur
+
+```bash
+docker run -d -p 5000:5000 google-dork-tool:latest
+```
+
+Puis ouvrez votre navigateur à l’adresse :
+
+```bash
 http://localhost:5000
 ```
 
@@ -71,9 +99,9 @@ http://localhost:5000
 
 ## 📝 Utilisation
 
-* Saisissez un nom de domaine ciblé (exemple : `exemple.com`)
-* Cliquez sur **Générer les Dorks**
-* Consultez les requêtes Google dorks générées, prêtes à être utilisées
+- Saisissez un nom de domaine ciblé (exemple : `exemple.com`)
+- Cliquez sur **Générer les Dorks**
+- Consultez les requêtes Google dorks générées, prêtes à être utilisées
 
 ---
 
@@ -81,9 +109,9 @@ http://localhost:5000
 
 Cet outil est destiné uniquement à un usage :
 
-* **Légal**,
-* Pour des **tests de sécurité autorisés**,
-* Et à des fins **éducatives**.
+- **Légal**,
+- Pour des **tests de sécurité autorisés**,
+- Et à des fins **éducatives**.
 
 L’auteur décline toute responsabilité en cas d’usage malveillant ou non autorisé.
 
